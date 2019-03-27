@@ -1,21 +1,42 @@
-*You should use this boilerplate to start a new data analysis project based on Python and Tableau Software*
+*You should use this boilerplate to start a new data analysis project*
 
-*Please, remove theses two lines and adapt this file to fit with your project's specifications if needed*
+*Please, remove theses two lines and adapt this file to fit with your project's specifications*
 
 # Project Title
 
-One paragraph of project description
+Add your one-paragraph project description here
 
-## Getting Started
+## Project Structure
 
-### Prerequisites
+- `./1-Data/` contains the **project's data** (see folder [documentation](./1-Data/))
+- `./2-Scripting/` contains **project's scripts** (see folder [documentation](./2-Scripting/))
+- `./3-Deliverables/` contains the **project's deliverables** (see folder [documentation](./3-Deliverables/))
 
-You need to install the following dependencies on your computer:
+## Project Workflow
 
-- Conda (see [installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/))
+A data analysis project is described by these 5 major steps:
 
-### Installing
+![Workflow illustration](workflow.png)
 
-```bash
-TODO
-```
+### 1 - Project Framing
+
+Project framing consists in defining the goals and designing the strategy to reach these goals, taking into account contextual constraints.
+
+### 2 - Data Collection
+
+Data collection consists in gathering the data stored into an external source.
+This source can be the client's IT system, a website, or any data source.
+
+### 3 - Data Transformation
+
+Data transformation consists in 2 steps:
+- clearing the data
+- mapping the data to a model
+
+### 4 - Data Analysis
+
+Data analysis consists in explaining, using the data, the underlying phenomenon.
+
+### 5 - Data Visualization
+
+Data visualization consists in making the finding of the previous step understandable to a non data scientist.
